@@ -1,10 +1,10 @@
-Here’s a detailed README.md for your Interactive Resume project:
+Here’s a detailed README.md for your E-commerce Product Page project:
 
 ---
 
-# Interactive Resume
+# E-commerce Product Page
 
-Welcome to my Interactive Resume project! This repository showcases a modern, dynamic, and responsive resume built using HTML, CSS, and JavaScript. The resume features interactive elements, such as expandable sections, scrollable content, and hover effects, alongside data visualization components that highlight my skills and experience.
+Welcome to the E-commerce Product Page project! This repository contains the code for a dynamic and interactive product page, designed to enhance the user experience with features like image sliders, zoom effects, dynamic pricing, and an interactive shopping cart.
 
 ## Table of Contents
 
@@ -22,26 +22,27 @@ Welcome to my Interactive Resume project! This repository showcases a modern, dy
 
 ## About the Project
 
-This project aims to present a resume in an engaging and interactive format. It goes beyond the traditional static resume by incorporating animations, hover effects, and data visualizations, offering a more immersive experience. The goal is to provide a comprehensive view of my qualifications, skills, and experiences in a visually appealing manner.
+This project aims to create a rich, user-friendly e-commerce product page that not only displays product information but also allows customers to interact with the product through various features like image zoom, color and size options, and a live-updating shopping cart. The project is built with a focus on providing a seamless shopping experience that can be easily integrated into any e-commerce platform.
 
 ## Live Demo
 
-Check out the live version of this resume [here](#).
+Check out the live version of this product page [here](#).
 
 ## Features
 
-- **Interactive Sections**: Each section of the resume can expand or collapse on click, allowing users to focus on specific details.
-- **Smooth Scrolling**: Navigate through the resume with smooth scrolling effects, enhancing the user experience.
-- **Hover Effects**: Sections provide additional information or highlight key details on hover.
-- **Data Visualization**: Skills and experience are represented through charts and graphs, making it easy to understand my proficiency levels.
-- **Responsive Design**: The resume is fully responsive, ensuring it looks great on any device, from desktops to smartphones.
+- **Image Sliders**: View multiple product images in a slider format with smooth transitions.
+- **Zoom Effects**: Hover over the product image to zoom in for a closer look at the details.
+- **Dynamic Pricing**: The price updates automatically based on the selected options (e.g., size, color, quantity).
+- **Interactive Shopping Cart**: Add or remove items from the cart, with real-time updates on the total price and quantity.
+- **Responsive Design**: The product page is fully responsive, providing a consistent experience across desktops, tablets, and smartphones.
 
 ## Technologies Used
 
-- **HTML5**: For the structure and content of the resume.
-- **CSS3**: To style the resume, including animations and responsive design.
-- **JavaScript**: For interactivity, including expanding sections, hover effects, and data visualization.
-- **Chart.js/D3.js**: For creating dynamic charts and graphs to represent skills and experience.
+- **HTML5**: For the structure and content of the product page.
+- **CSS3**: To style the page, including animations and responsive design.
+- **JavaScript**: For interactivity, including the image slider, zoom effects, dynamic pricing, and cart functionality.
+- **jQuery**: For handling some of the interactive elements and animations.
+- **Bootstrap**: To ensure responsive design and quick layout structuring.
 
 ## Getting Started
 
@@ -57,45 +58,45 @@ Ensure you have the following installed on your system:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Shounak/interactive-resume.git
+   git clone https://github.com/Shounak/ecommerce-product-page.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd interactive-resume
+   cd ecommerce-product-page
    ```
 
-3. Open `index.html` in your preferred browser to view the resume.
+3. Open `index.html` in your preferred browser to view the product page.
 
 ## Usage
 
-- **Viewing the Resume**: Simply open the `index.html` file in a web browser. Click on the various sections to expand them, hover over skill bars to see additional details, and scroll through the content to explore all aspects of the resume.
-- **Customization**: If you wish to customize the resume, you can edit the HTML, CSS, and JavaScript files directly. Modify the sections, update the data in the charts, or change the styles to match your personal branding.
+- **Viewing the Product Page**: Open the `index.html` file in a web browser. Interact with the page by selecting different product options, zooming in on images, and adding items to the shopping cart.
+- **Customization**: Modify the HTML, CSS, and JavaScript files to customize the product page for different products. You can change the images, adjust pricing logic, or tweak the styling to match your brand.
 
 ## Project Structure
 
-
-interactive-resume/
+```plaintext
+ecommerce-product-page/
 ├── css/
 │   ├── styles.css          # Main stylesheet
 │   ├── responsive.css      # Responsive design stylesheet
 ├── js/
-│   ├── main.js             # Main JavaScript file for interactivity
-│   ├── charts.js           # JavaScript file for data visualizations
-├── assets/
-│   ├── images/             # Folder for images used in the resume
-│   └── fonts/              # Folder for custom fonts
+│   ├── main.js             # JavaScript for interactivity
+│   └── jquery.min.js       # jQuery library
+├── images/
+│   ├── product-1.jpg       # Primary product image
+│   ├── product-2.jpg       # Additional product images
 ├── index.html              # Main HTML file
 └── README.md               # Project documentation
 ```
 
 ## Screenshots
 
-![Interactive Resume Overview](#)  
-*Caption: Overview of the interactive resume with expandable sections.*
+![Product Page Overview](#)  
+*Caption: Overview of the product page with image slider and dynamic pricing.*
 
-![Skills Visualization](#)  
-*Caption: Data visualization of skills using bar charts.*
+![Interactive Shopping Cart](#)  
+*Caption: Interactive shopping cart showing real-time updates.*
 
 ## Contributing
 
@@ -115,4 +116,4 @@ If you have any questions or would like to connect, feel free to reach out!
 
 ---
 
-Feel free to modify the README to better match your personal branding or any additional features you might add!
+Feel free to adjust this README to better fit your project’s needs or add any additional features you implement!
