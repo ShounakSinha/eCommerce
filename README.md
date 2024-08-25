@@ -110,9 +110,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 If you have any questions or would like to connect, feel free to reach out!
 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **Email**: [shounaksinha.vis@gmail.com](shounaksinha.vis@gmail.com)
 - **LinkedIn**: [Your LinkedIn Profile](#)
-- **GitHub**: [Shounak's GitHub](https://github.com/Shounak)
+- **GitHub**: [Shounak's GitHub](https://github.com/ShounakSinha)
 
 ---
 
